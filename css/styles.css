@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background: #0C182B;
+  background: hsl(217, 54%, 11%);
+  color: #8BABD9;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+hr {
+  margin: 15px auto;
+  color: #2F3845;
+  color: hsl(215, 32%, 27%);
+}
+
+.container {
+  background: #14243D;
+  background: hsl(216, 50%, 16%);
+  margin: 60px auto;
+  text-align: center;
+  width: 290px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+}
+
+/* image section */
+.active-mask {
+  position: absolute;
+  top: 0px;
+  border-radius: 12px;
+  height: 280px;
+  width: 280px;
+  background-color: #8BABD9;
+  background-color: hsl(215, 51%, 70%);
+  opacity: .0;
+  margin-left: 6px;
+}
+
+.active-mask:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.image-card {
+  /*width: 200px; */
+  height: 280px;
+  border-radius: 10px;
+}
+
+.image-active {
+  position: absolute;
+  right: 40%;
+  top: 40%;
+}
+
+/*  data section */
+.car-data {
+  margin: 0;
+  width: 280px;
+  text-align: left;
+  position: relative;
+}
+
+.ntf-description {
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+.ntf-name {
+  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 15px auto;
+}
+
+.ntf-name:hover {
+  color: #00FFF6;
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.icon-coin {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ntf-value {
+  display: inline-block;
+}
+
+.ntf-coin {
+  color: #00FFF6;
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  font-weight: bold;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.img-clock {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.days {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.days-left {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Creator section  */
+.creator-data {
+  text-align: left;
+}
+
+.img-avatar {
+  height: 30px;
+  border: solid 1px #fff;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.creator {
+  display: inline-block;
+  margin: auto;
+}
+
+.creator-name {
+  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
+  padding-left: 5px;
+}
+
+.creator-name:hover {
+  color: #00FFF6;
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
