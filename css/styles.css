@@ -9,12 +9,20 @@ body {
 }
 
 hr {
-  margin: 15px auto;
+  margin: 15px 6px;
   color: #2F3845;
   color: hsl(215, 32%, 27%);
 }
 
 .container {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);  
+  width: 100%;
+  margin: 0;
+}
+
+.container-card {
   background: #14243D;
   background: hsl(216, 50%, 16%);
   margin: 60px auto;
@@ -61,18 +69,18 @@ hr {
 
 /*  data section */
 .car-data {
-  margin: 0;
+  margin: 5px;
   width: 280px;
   text-align: left;
   position: relative;
 }
 
-.ntf-description {
+.nft-description {
   margin: 15px auto;
   font-size: 18px;
 }
 
-.ntf-name {
+.nft-name {
   color: #FFFFFF;
   color: hsl(0, 0%, 100%);
   font-weight: bold;
@@ -80,7 +88,7 @@ hr {
   margin: 15px auto;
 }
 
-.ntf-name:hover {
+.nft-name:hover {
   color: #00FFF6;
   color: hsl(178, 100%, 50%);
   cursor: pointer;
@@ -91,11 +99,11 @@ hr {
   vertical-align: middle;
 }
 
-.ntf-value {
+.nft-value {
   display: inline-block;
 }
 
-.ntf-coin {
+.nft-coin {
   color: #00FFF6;
   color: hsl(178, 100%, 50%);
   display: inline-block;
@@ -124,6 +132,7 @@ hr {
 /* Creator section  */
 .creator-data {
   text-align: left;
+  margin: 5px;
 }
 
 .img-avatar {
@@ -138,6 +147,7 @@ hr {
 .creator {
   display: inline-block;
   margin: auto;
+  vertical-align: middle;
 }
 
 .creator-name {
